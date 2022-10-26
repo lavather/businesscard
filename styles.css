@@ -1,0 +1,45 @@
+body {
+    margin: 20px; 
+    font-family: Garamont;
+    font-size:16px;
+    background-image: linear-gradient(to bottom right, rgb(236, 219, 202), rgb(190, 164, 106));
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+       
+}
+
+.business-photo {
+    width:250px;
+    border-radius:100%;
+    border:2px solid #aa8f82;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+      
+}
+
+.frame{
+    margin-top:40px;
+}
+.shadow {
+    text-shadow:2px 2px #b89f90;   
+}
+.box:hover{
+    transition:box-shadow .3s;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+
+    
+}
+
+.card {
+    width:300px;
+    height:650px;
+    padding:20px;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align:center;
+    color:#3d211a;
+    background-color:#d3bfb1;    
+}
+
+.rahmen {
+    border-bottom: 8px ridge #aa8f82;
+}
